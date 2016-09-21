@@ -1,1 +1,0 @@
-# ShiftMediaProject.github.io
