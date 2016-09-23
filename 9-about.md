@@ -13,7 +13,7 @@ What is this Project?
 
 : This project however generally is not responsible for the creation and maintenance of the actual libraries themselves. Instead it just provides alternate versions that have been patched to compile using msvc and to provide native Visual Studio projects. As such any compliments(/blame) should be directed towards the official library maintainers as they deserve most of the credit.
 
-: But if your a developer who is interested in developing software on Windows using any of the provided libraries then this is the project for you. The [Projects](/projects) page has a complete list of available projects including links to their git pages as well as provided downloads.
+: But if your a developer who is interested in developing software on Windows using any of the provided libraries then this is the project for you. The [Projects](/1-projects) page has a complete list of available projects including links to their git pages as well as provided downloads.
 
 : For each supported library the project provides pre-built static and dynamic lib's built using the latest supported Visual Studio versions.
 
@@ -29,7 +29,7 @@ Why are there dash releases of a library with identical version (v1.0-1, v1.0-2,
 
 Where should I report a bug I found in one of the libraries?
 
-: Most bugs should be reported to the upstream project that primarily maintains them. Links can be found on the GitHub page for each project which can be located from this sites [Projects](/projects) page.
+: Most bugs should be reported to the upstream project that primarily maintains them. Links can be found on the GitHub page for each project which can be located from this sites [Projects](/1-projects) page.
 Should you determine that a bug was introduced when porting/compiling with Visual Studio then you can open a new Issue on the corresponding projects GitHub page.
 
 Why don't the builds include FAAC, FDK-AAC, libaacplus?
