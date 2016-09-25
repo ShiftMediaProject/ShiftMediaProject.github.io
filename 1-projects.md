@@ -6,7 +6,7 @@ title: Projects
 The following is a list of available projects with links to download the latest compiled release, links to a complete list of all releases as well as links to access the source code.
 
 {% assign special = 'FFmpeg|FFVS-Project-Generator' | split: "|" %}
-{% assign noredist = 'libaacs|libbdplus|libdvdcss|libdvdnav|libdvdread' | split: "|" %}
+{% assign noredist = 'libaacs|libbdplus|libdvdcss|libdvdnav|libdvdread|fdk-aac' | split: "|" %}
 
 ## FFmpeg
 
