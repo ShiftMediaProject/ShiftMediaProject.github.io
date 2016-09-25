@@ -5,8 +5,10 @@ $.fn.getLatestRelease = function(repo) {
             dataType : 'jsonp',
             success : function ( returndata ) {
                 $(returndata.data).each(function() {
-                    var link = '<a href="'+this.html_url+'releases/latest">'+this.name+'</a>';
-                    $('#'+repo+'ID').html(link);
+                    if(this.html_url.length > 0){
+                        var link = '<a href="'+this.html_url+'releases/latest">'+this.name+'</a>';
+                        $('#'+repo+'ID').html(link);
+                    }
                 });
             }
         });
