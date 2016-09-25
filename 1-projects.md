@@ -14,7 +14,7 @@ Development libraries are available for each lib (libavcodec, libavformat etc.) 
 
 | Name                  | Download                                                     | Releases                                               | Repository                                  |
 | --------------------- |:------------------------------------------------------------:|:------------------------------------------------------:|:-------------------------------------------:|
-{% for repository in site.github.public_repositories %}{% if repository.name contains special[0] %}| {{ repository.name }} | [Get Latest]({{ repository.html_url }}/releases/latest) | [All Releases]({{ repository.html_url }}/releases) | [View Code]({{ repository.html_url }}) |
+{% for repository in site.github.public_repositories %}{% if repository.name contains special[0] %}| {{ repository.name }} | <span id="{{ repository.name }}ID">[Get Latest]({{ repository.html_url }}/releases/latest)</span> | [All Releases]({{ repository.html_url }}/releases) | [View Code]({{ repository.html_url }}) |
 {% endif %}{% endfor %}
 
 * * *
@@ -25,7 +25,7 @@ The FFmpeg VS Project Generator is a standalone program that can be used to crea
 
 | Name                  | Download                                                     | Releases                                               | Repository                                  |
 | --------------------- |:------------------------------------------------------------:|:------------------------------------------------------:|:-------------------------------------------:|
-{% for repository in site.github.public_repositories %}{% if repository.name contains special[1] %}| {{ repository.name }} | [Get Latest]({{ repository.html_url }}/releases/latest) | [All Releases]({{ repository.html_url }}/releases) | [View Code]({{ repository.html_url }}) |
+{% for repository in site.github.public_repositories %}{% if repository.name contains special[1] %}| {{ repository.name }} | <span id="{{ repository.name }}ID">[Get Latest]({{ repository.html_url }}/releases/latest)</span> | [All Releases]({{ repository.html_url }}/releases) | [View Code]({{ repository.html_url }}) |
 {% endif %}{% endfor %}
 
 * * *
@@ -36,7 +36,7 @@ Development libraries are available for many various projects. These libraries a
 
 | Name                  | Download                                                     | Releases                                               | Repository                                  |
 | --------------------- |:------------------------------------------------------------:|:------------------------------------------------------:|:-------------------------------------------:|
-{% for repository in site.github.public_repositories %}{% unless repository.description contains '***' or repository.name contains 'github.io' or special contains repository.name or noredist contains repository.name %}| {{ repository.name }} | [Get Latest]({{ repository.html_url }}/releases/latest) | [All Releases]({{ repository.html_url }}/releases) | [View Code]({{ repository.html_url }}) |
+{% for repository in site.github.public_repositories %}{% unless repository.description contains '***' or repository.name contains 'github.io' or special contains repository.name or noredist contains repository.name %}| {{ repository.name }} | <span markdown id="{{ repository.name }}ID">[Get Latest]({{ repository.html_url }}/releases/latest)</span> | [All Releases]({{ repository.html_url }}/releases) | [View Code]({{ repository.html_url }}) |
 {% endunless %}{% endfor %}
 
 * * *
@@ -59,3 +59,12 @@ These are projects that are no longer actively maintained but are still provided
 | --------------------- |:------------------------------------------------------:|:-------------------------------------------:|
 {% for repository in site.github.public_repositories %}{% if repository.description contains '***' %}{% unless special contains repository.name or noredist contains repository.name or repository.name contains 'github.io' %}| {{ repository.name }} | [All Releases]({{ repository.html_url }}/releases) | [View Code]({{ repository.html_url }}) |
 {% endunless %}{% endif %}{% endfor %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+<script src="/scripts/getLatestRelease.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function() {
+        {% for repository in site.github.public_repositories %}$(this).getLatestRelease('{{ repository.name }}');
+        {% endfor %}
+    });
+</script>
