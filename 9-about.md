@@ -47,7 +47,7 @@ You can compile your own build by cloning the required libraries Git repository 
 For projects that require more set-up than just opening the supplied solution then a readme is also provided in the 'SMP' directory and should be followed accordingly.
 
 About the Builds
-: *   Releases built using Microsoft Visual Studio 2013/2015
+: *   Releases built using Microsoft Visual Studio 2013/2015/2017
 : *   Builds performed by [AppVeyor CI](https://www.appveyor.com/)
 
 About the Site

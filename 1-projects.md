@@ -10,7 +10,7 @@ The following is a list of available projects with links to download the latest 
 
 ## FFmpeg
 
-Development libraries are available for each lib (libavcodec, libavformat etc.) from the FFmpeg project. These libraries are available for each supported Visual Studio version (2013 or 2015) with a different download for either 32bit or 64bit versions. Each download contains both static and dynamic libraries to choose from.
+Development libraries are available for each lib (libavcodec, libavformat etc.) from the FFmpeg project. These libraries are available for each supported Visual Studio version (2013, 2015 or 2017) with a different download for each version. Each download contains both static and dynamic libraries to choose from in both 32bit and 64bit versions.
 
 | Name                  | Download                                                     | Releases                                               | Repository                                  |
 | --------------------- |:------------------------------------------------------------:|:------------------------------------------------------:|:-------------------------------------------:|
@@ -32,7 +32,7 @@ The FFmpeg VS Project Generator is a standalone program that can be used to crea
 
 ## Additional Projects:
 
-Development libraries are available for many various projects. These libraries are available for each supported Visual Studio version (2013 or 2015) with a different download for each version. Each download contains both static and dynamic libraries to choose from in both 32bit and 64bit versions.
+Development libraries are available for many various projects. These libraries are available for each supported Visual Studio version (2013, 2015 or 2017) with a different download for each version. Each download contains both static and dynamic libraries to choose from in both 32bit and 64bit versions.
 
 | Name                  | Download                                                     | Releases                                               | Repository                                  |
 | --------------------- |:------------------------------------------------------------:|:------------------------------------------------------:|:-------------------------------------------:|
