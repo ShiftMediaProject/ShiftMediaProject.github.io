@@ -10,7 +10,7 @@ The following is a list of available projects with links to download the latest 
 
 ## FFmpeg
 
-FFmpeg binaries (ffmpeg, ffplay, ffprobe) are available in a single archive containing both 32bit and 64bit versions..
+FFmpeg binaries (ffmpeg, ffplay, ffprobe) are available in a single archive containing both 32bit and 64bit versions.
 Development libraries are also available for each lib (libavcodec, libavformat etc.) from the FFmpeg project. These libraries are available for each supported Visual Studio version (2013, 2015 or 2017) with a different download for each version. Each download contains both static and dynamic libraries to choose from in both 32bit and 64bit versions.
 
 | Name                  | Download                                                     | Releases                                               | Repository                                  |

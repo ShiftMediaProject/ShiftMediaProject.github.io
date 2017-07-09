@@ -25,7 +25,7 @@ Where can I find a build for version 1.x, 2.x, etc.?
 
 Why are there dash releases of a library with identical version (v1.0-1, v1.0-2, etc.)?
 
-: Sometimes a library will not have had an update but one of its dependencies has. To ensure that the latest and most stable versions are being used a new build of a library we will be performed using the new updated dependencies. These updates are identified by a '-x' suffix.
+: Sometimes a library will not have had an update but one of its dependencies has. To ensure that the latest and most stable versions are being used a new build of a library will be performed using the new updated dependencies. These updates are identified by a '-n' suffix.
 
 Where should I report a bug I found in one of the libraries?
 
