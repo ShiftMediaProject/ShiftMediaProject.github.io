@@ -15,7 +15,3 @@ You can even reference a donation in a bug report or feature request in order to
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
 </form>
-
-#### Pledgie
-
-<a href='https://pledgie.com/campaigns/30265'><img alt='Click here to lend your support to: Shift Media Project and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30265.png?skin_name=chrome' border='0' ></a>
